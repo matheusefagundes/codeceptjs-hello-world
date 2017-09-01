@@ -1,0 +1,15 @@
+{
+  "tests": "test/*_test.js",
+  "timeout": 10000,
+  "output": "test-output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://localhost:8080",
+      "browser": "chrome"
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "calculadoraHtml"
+}
