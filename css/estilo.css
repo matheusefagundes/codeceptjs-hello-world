@@ -1,0 +1,50 @@
+body{
+	font-family: 'Ubuntu Mono', 'Monospace';
+	background-color: #000136;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+hr{
+	border-color: #A1A2D4;
+	width: 400px;
+}
+
+table{
+	margin: auto;
+	color: #000136;
+}
+
+td{
+	width: 75px;
+	height: 75px;
+}
+
+td div{
+	font-size: 48px;
+	color: white;
+	text-align: right;
+	padding: 3px;
+}
+
+#erro{
+	width: 300px;
+	margin: auto;
+}
+
+.tecla, .teclaOperacao, #teclaIgual, #teclaLimpar {
+	width: 95%;
+	height: 95%;	
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 35px;
+	border-radius: 1px;
+}
+
+#teclaOculta {
+	visibility: hidden;
+}

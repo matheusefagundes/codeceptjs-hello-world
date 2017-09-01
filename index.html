@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="./css/estilo.css" />
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				configurarCalculadora();
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Calculadora</h1>
+		<hr/>
+		<div id="erro"></div>
+		<table>
+		<!-- Visor e = -->
+			<tr>
+				<td colspan=3><div id="display">0</div></td>
+				<td><button id="teclaLimpar" class="btn btn-default" >C</button></td>
+			</tr>
+		<!-- 7, 8, 9 e / -->
+			<tr>
+				<td><button id="tecla7" class="btn btn-default tecla">7</button></td>
+				<td><button id="tecla8" class="btn btn-default tecla">8</button></td>
+				<td><button id="tecla9" class="btn btn-default tecla">9</button></td>
+				<td><button class="btn btn-default teclaOperacao">/</button></td>
+			</tr>
+		<!-- 4, 5, 6 e * -->
+			<tr>
+				<td><button id="tecla4" class="btn btn-default tecla">4</button></td>
+				<td><button id="tecla5" class="btn btn-default tecla">5</button></td>
+				<td><button id="tecla6" class="btn btn-default tecla">6</button></td>
+				<td><button class="btn btn-default teclaOperacao">*</button></td>
+			</tr>
+		<!-- 1, 2, 3 e - -->
+			<tr>
+				<td><button id="tecla1" class="btn btn-default tecla">1</button></td>
+				<td><button id="tecla2" class="btn btn-default tecla">2</button></td>
+				<td><button id="tecla3" class="btn btn-default tecla">3</button></td>
+				<td><button class="btn btn-default teclaOperacao">-</button></td>
+			</tr>
+		<!-- ,, 0, =, + -->
+			<tr >
+				<td><button class="btn btn-default tecla">,</button></td>
+				<td><button id="tecla0" class="btn btn-default tecla">0</button></td>
+				<td><button id="teclaIgual" class="btn btn-default">=</button></td>
+				<td><button class="btn btn-default teclaOperacao">+</button></td>
+			</tr>
+		</table>
+		<!--
+		<div class="panel panel-default col-md-4 col-md-offset-4" style="padding-left:0; padding-right:0">
+  			<div class="panel-heading" >
+    			<h3 id="display" class="panel-title">0</h3>
+  			</div>
+			<div class="panel-body">
+				<div class="btn-group comandos" >
+					<button id="teclaLimpar" class="btn btn-primary" >
+						Limpar
+					</button>
+					<button id="teclaIgual" class="btn btn-primary">
+						=
+					</button>
+				</div>
+				<div class="btn-group" data-toggle="buttons">
+					<button id="tecla7" class="btn btn-primary tecla" value="7">
+						7
+					</button>
+					<button id="tecla8" class="btn btn-primary tecla" value="8">
+						8
+					</button>
+					<button id="tecla9" class="btn btn-primary tecla" value="9">
+						9
+					</button>
+					<button id="teclaDiv" class="btn btn-primary teclaOperacao" value="/">
+						/
+					</button>
+				</div>
+				<div class="btn-group" data-toggle="buttons">
+					<button id="tecla4" class="btn btn-primary tecla" value="4">
+						4
+					</button>
+					<button id="tecla5" class="btn btn-primary tecla" value="5">
+						5
+					</button>
+					<button id="tecla6" class="btn btn-primary tecla" value="6">
+						6
+					</button>
+					<button id="teclaMult" class="btn btn-primary teclaOperacao" value="X">
+						X
+					</button>
+				</div>
+				<div class="btn-group" data-toggle="buttons">
+					<button id="tecla1" class="btn btn-primary tecla" value="1">
+						1
+					</button>
+					<button id="tecla2" class="btn btn-primary tecla" value="2">
+						2
+					</button>
+					<button id="tecla3" class="btn btn-primary tecla" value="3">
+						3
+					</button>
+					<button id="teclaSub" class="btn btn-primary teclaOperacao" value="-">
+						-
+					</button>
+				</div>
+				<div class="btn-group" data-toggle="buttons">
+					<button id="teclaOculta" class="btn btn-primary tecla"></button>
+					<button id="tecla0" class="btn btn-primary tecla" value="0">
+						0
+					</button>
+					<button id="teclaVirgula" class="btn btn-primary tecla" value=",">
+						,
+					</button>
+					<button id="teclaSoma" class="btn btn-primary teclaOperacao" value="+">
+						+
+					</button>
+					
+				</div>
+			</div>
+		</div>-->
+	</body>
+</html>
